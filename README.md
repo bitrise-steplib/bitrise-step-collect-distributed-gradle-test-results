@@ -1,0 +1,1 @@
+# bitrise-step-collect-distributed-gradle-test-results
