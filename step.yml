@@ -1,0 +1,22 @@
+title: Collect Distributed Gradle Test Results
+summary: Collect test results from distributed Gradle builds
+description: |
+  This Step collects test results from distributed Gradle builds and uploads them to Bitrise.
+
+website: https://github.com/bitrise-steplib/bitrise-step-collect-distributed-gradle-test-results
+source_code_url: https://github.com/bitrise-steplib/bitrise-step-collect-distributed-gradle-test-results
+support_url: https://github.com/bitrise-steplib/bitrise-step-collect-distributed-gradle-test-results
+
+project_type_tags:
+- android
+type_tags:
+- utility
+
+run_if: .IsCI
+is_skippable: true
+
+toolkit:
+  bash:
+    entry_file: step.sh
+
+inputs:
