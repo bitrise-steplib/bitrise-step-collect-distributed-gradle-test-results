@@ -19,4 +19,4 @@ toolkit:
   bash:
     entry_file: step.sh
 
-inputs:
+inputs: []
