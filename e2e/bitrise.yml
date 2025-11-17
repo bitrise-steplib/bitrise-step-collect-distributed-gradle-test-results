@@ -32,7 +32,7 @@ workflows:
         title: Switch working dir to _tmp
         inputs:
         - path: ./_tmp
-    - bitrise-step-android-unit-test:
+    - teps-gradle-unit-tes:
         title: Test App
         inputs:
         - module: app
